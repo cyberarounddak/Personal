@@ -242,14 +242,19 @@ footer {
 ========================= */
 @media (max-width: 700px) {
     #home {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: flex-start;
-}
-.hero-photo img {
-    width: 220px;
-    height: 220px;
-}
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    #home .hero-photo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hero-photo img {
+        width: 175px;
+        height: 245px;
+    }
     .nav-links {
         display: none;
     }
